@@ -177,7 +177,7 @@ class Main extends React.Component {
        <div className='vol'>
        <button onClick={this.volumeUp}>volume up</button>
        <button onClick={this.volumeDown}>volume down</button></div>
-       <div className='text-board'><h3>{this.state.display}</h3></div>
+       <div className='text-board'><h5>{this.state.display}</h5></div>
        <button style={{backgroundColor:this.state.color}}className='change' onClick={this.changeBank}>Change Bank to {this.state.bank}</button>
        </div>
        </div>
